@@ -11,7 +11,7 @@
 
 ### Sintaxe do C# e Conceitos Fundamentais:
 
-<img src="https://github.com/fzanneti/dev-profissional-dotnet/blob/main/assets/imagens/png/tipos-de-dados.png" alt="Banner" width="600px" margin-bottom="10px" />
+<img src="https://github.com/fzanneti/dev-profissional-dotnet/blob/main/assets/imagens/png/tipos-de-dados.png" alt="Banner" width="600px"/>
 
 **1.1 - `int:`** 
 
