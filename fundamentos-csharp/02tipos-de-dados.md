@@ -2,7 +2,7 @@
 
 ![Badge](https://img.shields.io/badge/Fabio%20Zanneti%20da%20Silva-Profissional-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-![Badge](https://img.shields.io/badge/1._Fundamentos_do_C%23_e_.NET-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Badge](https://img.shields.io/badge/2._Fundamentos_do_C%23_e_.NET-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
 > Aprendizado estruturado para se tornar desenvolvedor .NET profissional, com foco em C#, ASP.NET Core, APIs e integração com Inteligência Artificial.
 
