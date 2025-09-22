@@ -14,27 +14,21 @@
 
 ---
 
-### Sintaxe do C# e Conceitos Fundamentais:
+## Um programa básico em C# é organizado da seguinte forma:
 
 <img src="" alt="Banner" width="600px"/>
 
-**Um programa básico em C# é organizado da seguinte forma:**
+### 1️⃣ `using;`:
+a palavra-chave `using` é uma diretiva fundamental com três propósitos principais, todos com o objetivo de tornar o código mais limpo, legível e eficiente. Dominar os três usos da diretiva using é essencial para qualquer desenvolvedor .NET/C# que preze por escrever código limpo, seguro e de fácil manutenção.    
+Vamos analisar cada um deles:
 
-1️⃣ `using;`: a palavra-chave `using` é uma diretiva fundamental com três propósitos principais, todos com o objetivo de tornar o código mais limpo, legível e eficiente. Dominar os três usos da diretiva using é essencial para qualquer desenvolvedor .NET/C# que preze por escrever código limpo, seguro e de fácil manutenção.
-
-**Vamos analisar cada um deles:**
-
-🔵 `using` para importar `namespaces`:
+🔹 `using` para importar `namespaces`:
 
 Este é o uso mais comum e conhecido da diretiva `using`. Sua principal função é permitir que você utilize tipos (classes, structs, interfaces, etc.) de um determinado namespace sem a necessidade de escrever o nome completo do namespace toda vez.
 
----
-
-💡 **Analogia:**
+**Analogia:**
 
 Imagine que cada `namespace` é uma pasta no seu computador e cada tipo é um arquivo dentro dessa pasta. Em vez de digitar o caminho completo do arquivo (`C:\Documentos\Relatorios\Vendas.docx`) toda vez que precisar dele, você pode simplesmente adicionar a pasta `C:\Documentos\Relatorios\` à sua área de trabalho. A partir daí, basta se referir a `Vendas.docx`. A diretiva `using` faz exatamente isso no C#.
-
----
 
 🧠 **Exemplo:**    
 
@@ -91,12 +85,10 @@ class Program
 
 ---
 
-🔵 `using` **como uma instrução para gerenciamento de recursos (**`IDisposable`**)**
+🔹 `using` **como uma instrução para gerenciamento de recursos (**`IDisposable`**)**
 
 O segundo uso da palavra-chave `using` é como uma instrução que garante a liberação correta de recursos. Certos objetos no **.NET**, como conexões de banco de dados, streams de arquivos, e objetos gráficos, gerenciam recursos não gerenciados (memória que não está sob o controle direto do **Garbage Collector (GC)** (processo automático de gerenciamento de memória que libera a memória ocupada por objetos que não estão mais sendo usados pela aplicação)).     
 Esses objetos implementam a interface `IDisposable`, que possui um único método: `Dispose()`. A instrução `using` cria um escopo e, ao final desse escopo (seja por conclusão normal ou por uma exceção), o método `Dispose()` do objeto é chamado automaticamente. Isso previne vazamentos de memória e garante que os recursos sejam liberados o mais rápido possível.
-
----
 
 🧠 **Exemplo:**
 
@@ -149,12 +141,10 @@ finally
 
 ---
 
-🔵 `using static` para importar membros estáticos
+🔹 `using static` para importar membros estáticos
 
 Introduzido no C# 6, o `using static` permite que você acesse membros estáticos (métodos, propriedades, campos) de uma classe diretamente, sem precisar qualificar com o nome da classe.      
 Isso é particularmente útil para classes com muitos membros estáticos que você usa com frequência, como `System.Math`, `System.Console` ou classes de constantes.
-
----
 
 🧠 **Exemplo:**
 
@@ -212,16 +202,13 @@ class Calculadora
 
 ---
 
-2️⃣ `namespace`: Um `namespace` (em português, "espaço de nomes") é um mecanismo fundamental no C# e em toda a plataforma .NET para **organizar e agrupar código relacionado**, além de **prevenir conflitos de nomes**.    
+### 2️⃣ `namespace`: 
+Um `namespace` (em português, "espaço de nomes") é um mecanismo fundamental no C# e em toda a plataforma .NET para **organizar e agrupar código relacionado**, além de **prevenir conflitos de nomes**.    
 Pense nele como um sobrenome para suas classes, interfaces, structs e outros tipos.
 
----
-
-💡 **Analogia:**
+**Analogia:**
 
 Em uma cidade, podem existir duas pessoas chamadas "João". Para diferenciá-las, usamos seus sobrenomes: "João Silva" e "João Souza". No C#, se você tiver duas classes chamadas `Cliente`, os namespaces atuariam como esses sobrenomes, permitindo que o compilador saiba exatamente a qual delas você se refere: `Vendas.Cliente` e `Marketing.Cliente`.
-
----
 
 **Os principais objetivos de um `namespace` são:**
 
@@ -287,7 +274,7 @@ namespace Ecommerce.Servicos
 
 ```
 
-💡 **Sem a diretiva `using Ecommerce.Modelos;`, teríamos que escrever o nome completo (fully qualified name):**
+💡 **Sem a diretiva using `Ecommerce.Modelos;`, teríamos que escrever o nome completo (fully qualified name):**
 
 ```csharp
 
