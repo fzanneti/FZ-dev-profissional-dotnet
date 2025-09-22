@@ -6,6 +6,12 @@
 
 > Aprendizado estruturado para se tornar desenvolvedor .NET profissional, com foco em C#, ASP.NET Core, APIs e integração com Inteligência Artificial.
 
+![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/dev-profissional-dotnet)
+![GitHub forks](https://img.shields.io/github/forks/fzanneti/dev-profissional-dotnet?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/fzanneti/dev-profissional-dotnet?style=social)
+![Linguagem](https://img.shields.io/badge/Linguagem-CSharp-black)
+![Autor](https://img.shields.io/badge/Autor-fzanneti-black?style=flat-square&logo=github)
+
 ---
 
 ### Sintaxe do C# e Conceitos Fundamentais:
@@ -143,3 +149,9 @@ var ativo = true;        // bool
 - Use `var` quando o tipo for óbvio pelo valor atribuído
 
 > O `var` é especialmente útil em consultas **LINQ** que são uma forma integrada à linguagem de consultar diversas fontes de dados (como coleções de objetos em memória, bancos de dados e XML) diretamente no código .NET (C# e Visual Basic), oferecendo uma sintaxe declarativa, similar à SQL, para filtrar, ordenar e agrupar dados de maneira eficiente e padronizada, e quando os nomes de tipos são longos. **Sempre inicialize variáveis** `var` na declaração.
+
+---
+
+##### ✍️ Seção criada por: *Fabio Zanneti da Silva* - 🎯 Material de estudo: *C# / .Net*
+[![GitHub](https://img.shields.io/badge/GitHub-fzanneti-000000?style=flat&logo=github)](https://github.com/fzanneti)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-fzanneti-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/fzanneti)
