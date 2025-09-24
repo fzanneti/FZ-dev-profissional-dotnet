@@ -14,8 +14,9 @@
 
 ---
 
-**1.1 - `int:`** 
+[Compilador Online](https://www.mycompiler.io/pt/new/csharp)
 
+### 1️⃣ `int`:
 - Tipo numérico inteiro
 - **Tamanho:** 32 bits (4 bytes)
 - **Valores:** -2.147.483.648 a 2.147.483.647
@@ -35,8 +36,7 @@ int quantidade = 100;
 
 ---
 
-**1.2 - `sring` (Texto):** 
-
+### 2️⃣ `string`:
 - **O que é?:** Sequência de caracteres Unicode, ou seja, uma série de símbolos ou letras que podem ser representados num sistema de codificação universal, onde cada símbolo recebe um número único (ponto de código) para ser identificado em diferentes plataformas. O padrão Unicode permite que computadores manipulem textos de vários idiomas e scripts, como letras, números, pontuações e emojis, usando um único arquivo binário para representar qualquer caractere.
 - **Tamanho:** Variável (pode ser muito grande)
 - **Valores:** Texto entre aspas duplas
@@ -57,8 +57,7 @@ string mensagem = "Olá, mundo!";
 
 ---
 
-**1.3 - `bool` (Booleano):** 
-
+### 3️⃣ `bool` (Booleano): 
 - **O que é?:** Valor lógico verdadeiro/falso, ou seja, é um tipo de dado lógico que só pode ter dois valores: `Verdadeiro` ou `Falso`. Esse tipo de dado é fundamental na lógica e na ciência da computação, sendo utilizado em expressões que avaliam condições e controlam o fluxo de execução de programas, como em estruturas `if` e `while`.
 - **Tamanho:** 1 bit (mas ocupa 1 byte na memória)
 - **Valores:** `true` ou `false`
@@ -77,8 +76,7 @@ bool temPermissao = false;
 
 ---
 
-**1.4 - `double` (Ponto flutuante):** 
-
+### 4️⃣ `double` (Ponto flutuante):
 - **O que é?:** Número de ponto flutuante de precisão dupla, ou seja, é um tipo de dado que armazena números decimais (não inteiros) utilizando 64 bits de memória. Isso permite que ele represente uma gama mais ampla e com maior precisão os números do que um tipo float de precisão simples (que usa 32 bits), sendo ideal para cálculos científicos, simulações complexas e aplicações financeiras que exigem alta exatidão.
 - **Tamanho:** 64 bits (8 bytes)
 - **Valores:** ±5.0 × 10⁻³²⁴ a ±1.7 × 10³⁰⁸
@@ -96,8 +94,7 @@ double pi = 3.1415926535;
 ```
 
 
-**1.5 - `char` (Caractere):** 
-
+### 5️⃣ `char` (Caractere): 
 - **O que é?:** Um único caractere Unicode, ou seja, uma unidade fundamental de texto que representa um símbolo único, como uma letra, um número ou um sinal, padronizado pelo padrão Unicode. Em termos práticos, é o menor "pedaço" de texto que um computador pode manipular. O Unicode atribui um valor numérico único a cada caractere, conhecido como ponto de código, para que diferentes sistemas e idiomas possam representá-los de forma consistente.
 - **Tamanho:** 16 bits (2 bytes)
 - **Valores:** Caractere entre aspas simples
@@ -115,8 +112,7 @@ char simbolo = '$';
 
 ---
 
-**1.6 - `var` (Inferência de Tipo):** 
-
+### 6️⃣ `var` (Inferência de Tipo): 
 - **O que é?:** Não é um tipo, mas uma palavra-chave para inferência de tipo, ou seja, é a capacidade de um compilador ou interpretador de deduzir automaticamente o tipo de uma variável ou expressão sem que o programador precise declará-lo explicitamente. Em vez de escrever `<string> minhavariavel = "hello"`, o código se torna `<var> minhavariavel = "hello"`, onde o compilador infere que `minhavariavel` é do tipo `string`. Isso torna o código mais conciso e legível, sendo uma técnica comum em linguagens de programação modernas.
 - **Uso:**
     1. O compilador determina o tipo automaticamente
