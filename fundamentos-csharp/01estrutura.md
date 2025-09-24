@@ -481,8 +481,168 @@ class Program
 
 ---
 
-`static void Main(string[] args)`: O ponto de entrada principal do programa, onde a execução começa.         
-`Console.WriteLine("Hello, World!");`: Uma instrução que escreve "Hello, World!" no ecrã.
+### 4️⃣ `static void Main(string[] args)`:
+Este é o **ponto de entrada (entry point)** do programa. Quando você executa sua aplicação, é a primeira linha de código que o CLR do .NET procura e executa.
+> **Common Language Runtime (CLR):** Máquina virtual da plataforma .NET, ele permite que diferentes linguagens .NET trabalhem juntas e cria aplicações mais robustas, eficientes e seguras.
+
+**Vamos decompor cada parte dessa assinatura:**
+
+🔹 **`static`:** A palavra-chave `static` indica que o método `Main` pertence à **classe** em si, e não a uma **instância** (objeto) da classe.
+
+🧩 **Analogia:** 
+
+Pense em uma receita de bolo (`classe`).    
+A instrução "Pré-aqueça o forno" (`método static`) é uma ação que você faz com a cozinha (`classe`), antes mesmo de ter um bolo pronto (`objeto`).    
+Você não precisa de um bolo para pré-aquecer o forno.
+
+**Por que `Main` é `static`?**
+
+O CLR precisa chamar o método `Main` para iniciar seu programa. Se `Main` não fosse `static`, o CLR teria que primeiro criar um objeto da sua classe `Program` para depois chamar o método. Isso criaria um problema de "ovo e galinha": como o runtime saberia como criar o objeto sem antes ter um ponto de entrada para executar o código do construtor? Tornando-o `static`, o CLR pode chamá-lo diretamente através da classe, sem a necessidade de criar uma instância.
+
+🧠 **Exemplo:**
+
+```csharp
+
+class Program
+{
+    // Este método pertence à CLASSE Program.
+    // Pode ser chamado como: Program.Main(args);
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Iniciando o programa...");
+    }
+}
+
+```
+
+🔹 **`void`:** A palavra-chave `void` é o tipo de retorno do método. `void` significa que o método `Main` não retorna nenhum valor ao sistema operacional quando termina sua execução.
+
+A aplicação simplesmente executa suas tarefas e encerra. Embora seja possível retornar um `int` (`static int Main(...)`) para indicar um código de status de saída (onde `0` geralmente significa sucesso e qualquer outro número indica um erro), `void` é a forma mais comum e simples para a maioria das aplicações.
+
+🔹 **`Main`:** Este é, por convenção, o **nome do método** que serve como ponto de entrada. O nome Main (com "M" maiúsculo) é o padrão que o compilador C# e o runtime .NET procuram para iniciar a execução do programa. Você não pode dar outro nome a ele. É a porta de entrada obrigatória para a sua aplicação.
+
+🔹 **`(string[] args)`:** Esta é a declaração dos parâmetros do método.
+
+**`string[]`:** Declara um tipo de parâmetro que é um **array de strings**.       
+
+**`args`:** É o **nome do parâmetro** (uma abreviação comum para "arguments"). Você poderia chamá-lo de qualquer outra coisa, como `argumentosDeLinhaDeComando`, mas a `args` é a convenção universal.
+
+**Qual a finalidade de `args`?**
+
+Este parâmetro recebe quaisquer **argumentos de linha de comando** que são passados para a sua aplicação quando ela é executada. Cada argumento é uma string, e eles são armazenados no array `args`.
+
+🧠 **Exemplo:**
+
+**Vamos criar um programa simples que cumprimenta um usuário pelo nome e exibe uma mensagem um certo número de vezes, com base nos argumentos passados pela linha de comando.**
+
+```csharp
+
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine($"O programa recebeu {args.Length} argumento(s).");
+
+        // Verifica se recebemos os argumentos esperados: um nome e um número
+        if (args.Length < 2)
+        {
+            Console.WriteLine("\nUso: dotnet run [seu nome] [número de repetições]");
+            Console.WriteLine("Exemplo: dotnet run Maria 3");
+            return; // Encerra o programa se os argumentos estiverem faltando
+        }
+
+        // O primeiro argumento (índice 0) é o nome
+        string nome = args[0];
+
+        // O segundo argumento (índice 1) é o número de repetições
+        // Precisamos converter a string para um inteiro
+        if (int.TryParse(args[1], out int repeticoes))
+        {
+            for (int i = 0; i < repeticoes; i++)
+            {
+                Console.WriteLine($"Olá, {nome}! (vez {i + 1})");
+            }
+        }
+        else
+        {
+            Console.WriteLine("O segundo argumento deve ser um número inteiro válido.");
+        }
+    }
+}
+
+```
+
+**Como executar e passar os argumentos via terminal:**
+
+Abra um terminal na pasta do projeto e execute o comando `dotnet run` seguido dos argumentos:
+
+**Execução ❶:**
+> Com argumentos corretos
+
+```bash
+
+> dotnet run Ricardo 4
+
+```
+
+**Saída no Console:**
+
+```bash
+
+O programa recebeu 2 argumento(s).
+Olá, Ricardo! (vez 1)
+Olá, Ricardo! (vez 2)
+Olá, Ricardo! (vez 3)
+Olá, Ricardo! (vez 4)
+
+```
+
+**Execução ❷:**
+> Sem argumentos
+
+```bash
+
+> dotnet run
+
+```
+
+**Saída no Console:**
+
+```bash
+
+O programa recebeu 0 argumento(s).
+
+Uso: dotnet run [seu nome] [número de repetições]
+Exemplo: dotnet run Maria 3
+
+```
+
+> Entender cada parte de `static void Main(string[] args)` é compreender a base sobre a qual toda aplicação de console C# é construída. É a ponte entre o sistema operacional e o seu código.
+
+---
+
+### 5️⃣ `Console.WriteLine("Hello, World!");`:
+Essa linha de código tem uma única responsabilidade: **escrever o texto "Hello, World!" na janela do console e, em seguida, mover o cursor para a próxima linha**.
+
+**Vamos quebrar seus componentes:**
+
+🔹 **`Console`:**     
+
+▶️ **O que é?** `Console` é uma **classe estática** que faz parte do `namespace` `System` (`System.Console`). Uma classe estática, como vimos anteriormente, significa que você não precisa criar um objeto (uma instância) dela para usar seus membros. Você a acessa diretamente.
+
+▶️ **Qual seu propósito?** Ela representa a "ponte" entre sua aplicação e a janela do console (o terminal, prompt de comando, etc.). Através da classe `Console`, você pode ler dados que o usuário digita (`Console.ReadLine()`) e, como no nosso exemplo, escrever dados para o usuário ver (`Console.WriteLine()`). Ela representa os fluxos de entrada e saída padrão de uma aplicação de console.
+
+🔹 **`.` (Ponto):**
+
+▶️ **O que é?** O ponto é o **operador de acesso a membro**. Ele é usado para acessar os membros (métodos, propriedades, etc.) de uma classe ou de um objeto.
+
+▶️ **Neste contexto:** Estamos usando o ponto para acessar o método `WriteLine` que pertence à classe `Console`.
+
+
+
+
 Ponto e vírgula `(;)`: Termina cada instrução C#.
 
 ---
