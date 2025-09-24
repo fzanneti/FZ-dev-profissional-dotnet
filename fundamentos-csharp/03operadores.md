@@ -2,7 +2,7 @@
 
 ![Badge](https://img.shields.io/badge/Fabio%20Zanneti%20da%20Silva-Profissional-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-![Badge](https://img.shields.io/badge/3._Operadores-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Badge](https://img.shields.io/badge/3._Operadores_Aritmeticos-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
 > Aprendizado estruturado para se tornar desenvolvedor .NET profissional, com foco em C#, ASP.NET Core, APIs e integração com Inteligência Artificial.
 
@@ -14,7 +14,7 @@
 
 ---
 
-[Compilador Online](https://www.mycompiler.io/pt/new/csharp)
+🔗[Compilador Online](https://www.mycompiler.io/pt/new/csharp)👨🏻‍💻
 
 No universo do desenvolvimento com a plataforma .Net e a linguagem C#, o domínio dos operadores é fundamental para a construção de lógicas de programação robustas, eficientes e legíveis. Como especialista na área, apresento de forma clara e objetiva os principais operadores, divididos em suas categorias, com exemplos práticos que ilustram seu funcionamento.
 
