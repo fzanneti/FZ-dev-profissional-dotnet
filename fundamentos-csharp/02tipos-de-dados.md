@@ -2,7 +2,7 @@
 
 ![Badge](https://img.shields.io/badge/Fabio%20Zanneti%20da%20Silva-Profissional-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-![Badge](https://img.shields.io/badge/2._Fundamentos_do_C%23_e_.NET-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Badge](https://img.shields.io/badge/2._Tipos_de_Dados-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
 > Aprendizado estruturado para se tornar desenvolvedor .NET profissional, com foco em C#, ASP.NET Core, APIs e integração com Inteligência Artificial.
 
@@ -13,10 +13,6 @@
 ![Autor](https://img.shields.io/badge/Autor-fzanneti-black?style=flat-square&logo=github)
 
 ---
-
-### Sintaxe do C# e Conceitos Fundamentais:
-
-<img src="https://github.com/fzanneti/dev-profissional-dotnet/blob/main/assets/imagens/png/tipos-de-dados.png" alt="Banner" width="600px"/>
 
 **1.1 - `int:`** 
 

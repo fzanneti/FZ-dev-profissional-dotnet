@@ -2,7 +2,7 @@
 
 ![Badge](https://img.shields.io/badge/Fabio%20Zanneti%20da%20Silva-Profissional-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-![Badge](https://img.shields.io/badge/1._Estrutura_C%23-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Badge](https://img.shields.io/badge/1._Estrutura-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
 > Aprendizado estruturado para se tornar desenvolvedor .NET profissional, com foco em C#, ASP.NET Core, APIs e integração com Inteligência Artificial.
 
@@ -13,10 +13,6 @@
 ![Autor](https://img.shields.io/badge/Autor-fzanneti-black?style=flat-square&logo=github)
 
 ---
-
-### Sintaxe do C# e Conceitos Fundamentais:
-
-<img src="" alt="Banner" width="600px"/>
 
 ### 1️⃣ `using;`:
 a palavra-chave `using` é uma diretiva fundamental com três propósitos principais, todos com o objetivo de tornar o código mais limpo, legível e eficiente. Dominar os três usos da diretiva using é essencial para qualquer desenvolvedor .NET/C# que preze por escrever código limpo, seguro e de fácil manutenção.    
