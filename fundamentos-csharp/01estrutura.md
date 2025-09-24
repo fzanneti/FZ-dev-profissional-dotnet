@@ -640,10 +640,70 @@ Essa linha de código tem uma única responsabilidade: **escrever o texto "Hello
 
 ▶️ **Neste contexto:** Estamos usando o ponto para acessar o método `WriteLine` que pertence à classe `Console`.
 
+🔹 **`Writeline`:**
 
+▶️ **O que é?** `Writeline` (escrever linha) é um **método estático** da classe `Console`. Um método é um bloco de código que realiza uma ação específica.
 
+▶️ **Qual seu propósito?** A sua função é pegar a informação que você passa para ele (os argumentos) e exibi-la na tela do console. A principal característica do `Writeline` é que, após escrever o texto, ele automaticamente adiciona um caractere de quebra de linha, movendo o cursor para o inicio da linha seguinte.
 
-Ponto e vírgula `(;)`: Termina cada instrução C#.
+🔹 **`(Hello, World!)`:**
+
+▶️ **O que é?** Isso é o **argumento** que estamos passando para o método `Writeline`. Os parênteses `()` são usados para invocar um método e passar seus argumentos.
+
+▶️ **Neste contexto?** `"Hello, World!"` é uma **string literal**. Uma string é uma sequência de caracteres, e "literal" significa que o valor está escrito diretamente no código. Estamos instruindo o método `Writeline` a exibir exatamente este texto.
+
+🔹 **`(;)` (Ponto e vírgula):**
+
+▶️ **O que é?** O ponto e vírgula é o **terminador de instrução** em C#. Ele informa ao compilador que a instrução atual terminou. É obrigatório no final da maioria das linhas de comando em C#.
+
+🧠 **Exemplo:**
+
+**Veja como a linha se encaixa em um programa C# completo:**
+
+📄 **Arquivo:** `Produto.cs`
+
+```csharp
+
+// 1. A diretiva 'using' importa o namespace 'System'.
+// Isso nos permite escrever 'Console' em vez de 'System.Console'.
+using System;
+
+// 2. O namespace organiza nosso código.
+namespace MinhaPrimeiraApp
+{
+    // 3. A classe que contém nosso ponto de entrada.
+    class Program
+    {
+        // 4. O ponto de entrada da aplicação. A execução começa aqui.
+        static void Main(string[] args)
+        {
+            // 5. A instrução em si:
+            // Chama o método estático 'WriteLine' da classe 'Console'
+            // para exibir o texto "Hello, World!" na tela.
+            Console.WriteLine("Hello, World!");
+
+            // Exemplo adicional para mostrar a diferença com Console.Write
+            Console.Write("Meu nome é ");
+            Console.Write("Fabio.");
+            Console.WriteLine(); // Apenas para pular uma linha
+            Console.WriteLine("Fim do programa.");
+        }
+    }
+}
+
+```
+
+**Se você compilar e executar este código em um terminal, a saída será:**
+
+```bash
+
+Hello, World!
+Meu nome é Fabio.
+Fim do programa.
+
+```
+
+> Portanto, `Console.WriteLine("Hello, World!");` é uma instrução idiomática e poderosa que, de forma concisa, utiliza a classe `Console` do framework .NET para invocar seu método `WriteLine`, passando uma string como argumento a ser exibida na interface de linha de comando.
 
 ---
 
