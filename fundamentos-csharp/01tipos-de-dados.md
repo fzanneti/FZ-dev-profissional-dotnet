@@ -2,7 +2,7 @@
 
 ![Badge](https://img.shields.io/badge/Fabio%20Zanneti%20da%20Silva-Profissional-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-![Badge](https://img.shields.io/badge/2._Tipos_de_Dados-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Badge](https://img.shields.io/badge/1._Tipos_de_Dados-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
 > Aprendizado estruturado para se tornar desenvolvedor .NET profissional, com foco em C#, ASP.NET Core, APIs e integração com Inteligência Artificial.
 
@@ -15,6 +15,24 @@
 ---
 
 [Compilador Online](https://www.mycompiler.io/pt/new/csharp)
+
+**O que são tipos de dados?**     
+Tipos de dados definem que tipo de informação uma variável pode armazenar.      
+Eles são a base de qualquer linguagem de programação.
+
+**Tabela comparativa de tipos**
+
+|**Nome**|**Descrição**|**Exemplo de valor**|**Termo técnico**|
+|:---:|---|---|---|
+|`int`|Números inteiros|`42`|Tipo de valor|
+|`double`|Números decimais (com ponto)|`3.14`|Tipo de valor|
+|`bool`|Verdadeiro ou falso|`true`|Tipo de valor|
+|`char`|Um único caractere|`'A'`|Tipo de valor|
+|`string`|Texto (sequência de caracteres)|`"Olá mundo"`|Tipo de referência|
+|`var`|Tipo inferido pelo compilador|`var idade = 20;`|Tipo implícito|
+
+> **Tipo de valor:** Refere-se aos **tipos de valor**, que armazenam os dados diretamente na memória (stack). São imutáveis em termos de cópia: uma variável de tipo de valor contém uma cópia independente do dado. Exemplo: `int x = 5;` armazena o número 5 diretamente na variável `x`.
+> **Tipo de referência:** Refere-se aos **tipos de referência**, que armazenam um endereço para os dados na heap.
 
 ### 1️⃣ `int`:
 - Tipo numérico inteiro
