@@ -1,4 +1,4 @@
-# Estudos em C# e .NET
+# Estudo - Sintaxe do C# e Conceitos Fundamentais
 
 ![Badge](https://img.shields.io/badge/Fabio%20Zanneti%20da%20Silva-Profissional-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
