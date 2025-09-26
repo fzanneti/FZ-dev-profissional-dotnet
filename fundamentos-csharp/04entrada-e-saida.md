@@ -156,7 +156,119 @@ else
 
 ```
 
+---
 
+### 5️ Funções
+
+**🔹 Conceito** 
+
+Funções são blocos de código reutilizáveis que executam uma tarefa específica.
+
+🧠 **Exemplo:**
+
+```csharp
+
+static void Saudacao()
+{
+    Console.WriteLine("Bem-vindo ao programa!");
+}
+
+// static → usada em contexto de console
+// void → não retorna valor
+// Saudacao → nome da função
+// () → sem parâmetros
+
+
+```
+
+**Chamada da função:**
+
+```csharp
+
+static void Main(string[] args)
+{
+    Saudacao(); // Chamando a função
+}
+
+
+```
+
+**Extensões com parâmetro e retorno:**
+
+```csharp
+
+static void Saudar(string nome)
+{
+    Console.WriteLine($"Olá, {nome}!");
+}
+
+static int Dobro(int numero)
+{
+    return numero * 2;
+}
+
+
+```
+
+**🧠 Programa completo integrado:**
+
+```csharp
+
+using System;
+
+class Programa
+{
+    static void Main(string[] args)
+    {
+        // Entrada
+        Console.WriteLine("Digite seu nome:");
+        string nome = Console.ReadLine();
+
+        Console.WriteLine("Digite sua idade:");
+        string entradaIdade = Console.ReadLine();
+
+        // Conversão segura
+        bool idadeValida = int.TryParse(entradaIdade, out int idade);
+
+        if (!idadeValida)
+        {
+            Console.WriteLine("Idade inválida. Encerrando programa.");
+            return;
+        }
+
+        // Saída com interpolação
+        Console.WriteLine($"Olá, {nome}! Você tem {idade} anos.");
+
+        // Operadores
+        if (idade >= 18)
+        {
+            Console.WriteLine("Você é maior de idade.");
+        }
+        else
+        {
+            Console.WriteLine("Você é menor de idade.");
+        }
+
+        // Função com parâmetro
+        Saudar(nome);
+
+        // Função com retorno
+        int idadeDobro = Dobro(idade);
+        Console.WriteLine($"O dobro da sua idade é {idadeDobro}.");
+    }
+
+    static void Saudar(string nome)
+    {
+        Console.WriteLine($"Seja bem-vindo, {nome}!");
+    }
+
+    static int Dobro(int numero)
+    {
+        return numero * 2;
+    }
+}
+
+```
 
 ---
 
