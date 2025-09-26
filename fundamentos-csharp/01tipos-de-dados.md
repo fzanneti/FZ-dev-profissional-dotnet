@@ -17,8 +17,7 @@
 [Compilador Online](https://www.mycompiler.io/pt/new/csharp)
 
 **O que são tipos de dados?**     
-Tipos de dados definem que tipo de informação uma variável pode armazenar.      
-Eles são a base de qualquer linguagem de programação.
+Tipos de dados definem que tipo de informação uma variável pode armazenar. Eles são a base de qualquer linguagem de programação.
 
 **Tabela comparativa de tipos**
 
@@ -30,9 +29,6 @@ Eles são a base de qualquer linguagem de programação.
 |`char`|Um único caractere|`'A'`|Tipo de valor|
 |`string`|Texto (sequência de caracteres)|`"Olá mundo"`|Tipo de referência|
 |`var`|Tipo inferido pelo compilador|`var idade = 20;`|Tipo implícito|
-
-> **Tipo de valor:** Refere-se aos **tipos de valor**, que armazenam os dados diretamente na memória (stack). São imutáveis em termos de cópia: uma variável de tipo de valor contém uma cópia independente do dado. Exemplo: `int x = 5;` armazena o número 5 diretamente na variável `x`.
-> **Tipo de referência:** Refere-se aos **tipos de referência**, que armazenam um endereço para os dados na heap.
 
 ### 1️⃣ `int`:
 - Tipo numérico inteiro
