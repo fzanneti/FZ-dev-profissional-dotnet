@@ -7,8 +7,10 @@ Repositório dedicado à minha jornada de aprendizado e formação profissional 
  ┃ ┃ ┣ 📂 png   
  ┃ ┣ 📂 pdfs    
  ┣ 📂 fundamentos-csharp    
- ┃ ┣ 📄 01tipos-de-dados.md    
- ┃ ┣ 📄 02declaracao-de-variaveis.md    
- ┃ ┣ 📄 03operadores.md    
- ┃ ┣ 📄 04entrada-e-saida.md    
+ ┃ ┣ 📂 01sintaxe-do-Csharp-e-conceitos-fundamentais    
+ ┃ ┃ ┣ 📄 01tipos-de-dados.md    
+ ┃ ┃ ┣ 📄 02declaracao-de-variaveis.md    
+ ┃ ┃ ┣ 📄 03operadores.md    
+ ┃ ┃ ┣ 📄 04entrada-e-saida.md    
+ ┃ ┣ 📂 02estruturas-de-dados-loops-e-condicionais         
  ┗ 📜 README.md   
