@@ -7,8 +7,8 @@ Repositório dedicado à minha jornada de aprendizado e formação profissional 
  ┃ ┃ ┣ 📂 png   
  ┃ ┣ 📂 pdfs    
  ┣ 📂 fundamentos-csharp    
- ┃ ┣ 📄 01estrutura-csharp.md    
- ┃ ┣ 📄 02tipos-de-dados.md    
+ ┃ ┣ 📄 01tipos-de-dados.md    
+ ┃ ┣ 📄 02declaracao-de-variaveis.md    
  ┃ ┣ 📄 03operadores.md    
- ┃ ┣ 📄 04declaracao-de-variaveis.md    
+ ┃ ┣ 📄 04entrada-e-saida.md    
  ┗ 📜 README.md   

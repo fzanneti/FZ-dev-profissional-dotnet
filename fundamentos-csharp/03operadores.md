@@ -12,9 +12,10 @@
 ![Linguagem](https://img.shields.io/badge/Linguagem-CSharp-black)
 ![Autor](https://img.shields.io/badge/Autor-fzanneti-black?style=flat-square&logo=github)
 
----
+[![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
 
-🔗[Compilador Online](https://www.mycompiler.io/pt/new/csharp)👨🏻‍💻
+
+---
 
 No universo do desenvolvimento com a plataforma .Net e a linguagem C#, o domínio dos operadores é fundamental para a construção de lógicas de programação robustas, eficientes e legíveis. Como especialista na área, apresento de forma clara e objetiva os principais operadores, divididos em suas categorias, com exemplos práticos que ilustram seu funcionamento.
 

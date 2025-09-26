@@ -12,9 +12,9 @@
 ![Linguagem](https://img.shields.io/badge/Linguagem-CSharp-black)
 ![Autor](https://img.shields.io/badge/Autor-fzanneti-black?style=flat-square&logo=github)
 
----
+[![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
 
-[Compilador Online](https://www.mycompiler.io/pt/new/csharp)
+---
 
 **O que são tipos de dados?**     
 Tipos de dados definem que tipo de informação uma variável pode armazenar. Eles são a base de qualquer linguagem de programação.
