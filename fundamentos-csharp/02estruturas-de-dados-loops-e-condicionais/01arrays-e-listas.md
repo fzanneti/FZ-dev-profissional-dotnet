@@ -17,15 +17,15 @@
 
 ---
 
-No universo da programação em C#, saber como agrupar e gerenciar dados é uma habilidade fundamental. Duas das estruturas mais comuns para essa tarefa são os **Arrays** e as **Listas**. Embora ambos sirvam para armazenar coleções de elementos, eles possuem características distintas que os tornam mais adequados para diferentes situações.
+No universo da programação em C#, saber como agrupar e gerenciar dados é uma habilidade fundamental. Duas das estruturas mais comuns para essa tarefa são os **arrays** e as **listas**. Embora ambos sirvam para armazenar coleções de elementos, eles possuem características distintas que os tornam mais adequados para diferentes situações.
 
 Este guia foi criado para ser o seu ponto de partida, desmistificando esses conceitos de forma clara e didática, mesmo que você nunca tenha escrito uma linha de código.
 
 ### 1️⃣ Arrays: As "caixas" de tamanho fixo
 
-Imagine que você precisa guardar uma coleção de livros em uma estante. Antes de comprar a estante, você decide que ela terá espaço para exatamente 5 livros. Nem mais, nem menos. Um **Array** em C# funciona de maneira muito parecida.
+Imagine que você precisa guardar uma coleção de livros em uma estante. Antes de comprar a estante, você decide que ela terá espaço para exatamente 5 livros. Nem mais, nem menos. Um **array** em C# funciona de maneira muito parecida.
 
-Um Array é uma estrutura que armazena uma **quantidade fixa** de elementos de um **mesmo tipo**. Uma vez que você define o tamanho de um array, ele não pode ser alterado.
+Um **array** é uma estrutura que armazena uma **quantidade fixa** de elementos de um **mesmo tipo**. Uma vez que você define o tamanho de um **array**, ele não pode ser alterado.
 
 **Características principais:**
 
@@ -35,11 +35,11 @@ Um Array é uma estrutura que armazena uma **quantidade fixa** de elementos de u
 
 **Como declarar e inicializar um array**
 
-Você pode criar um array de duas maneiras principais.
+Você pode criar um **array** de duas maneiras principais.
 
 **▶️ Declarando o tamanho primeiro:**
 
-Primeiro, você especifica o tipo dos dados que o array vai guardar, seguido de colchetes `[ ]`, o nome da variável, e depois informa o tamanho dele.
+Primeiro, você especifica o tipo dos dados que o **array** vai guardar, seguido de colchetes `[ ]`, o nome da variável, e depois informa o tamanho dele.
 
 ```csharp
 
@@ -56,7 +56,7 @@ numeros[2] = 30; // Terceira posição (índice 2)
 
 **▶️ Inicializando com valores diretos:**
 
-Você pode criar o array e já fornecer todos os seus elementos. O C# é inteligente o suficiente para contar quantos elementos você passou e definir o tamanho do array automaticamente.
+Você pode criar o **array** e já fornecer todos os seus elementos. O C# é inteligente o suficiente para contar quantos elementos você passou e definir o tamanho do **array** automaticamente.
 
 ```csharp
 
@@ -72,7 +72,7 @@ string[] frutas = { "Maçã", "Banana", "Laranja" };
 
 **Como acessar os elementos de um array?**
 
-Para ler ou modificar um valor em um array, você utiliza seu **índice** (a posição do elemento). A regra de ouro é: **a contagem de índices sempre começa em 0**.
+Para ler ou modificar um valor em um **array**, você utiliza seu **índice** (a posição do elemento). A regra de ouro é: **a contagem de índices sempre começa em 0**.
 
 ```csharp
 
@@ -90,19 +90,19 @@ Console.WriteLine(numeros[1]); // O resultado agora será: 25
 
 ```
 
-> 🚨 **Cuidado!** Tentar acessar um índice que não existe (por exemplo, `numeros[3]` em um array de 3 posições) resultará em um erro (`IndexOutOfRangeException`), pois você está tentando acessar uma "caixa" que não existe na sua "estante".
+> 🚨 **Cuidado!** Tentar acessar um índice que não existe (por exemplo, `numeros[3]` em um **array** de 3 posições) resultará em um erro (`IndexOutOfRangeException`), pois você está tentando acessar uma "caixa" que não existe na sua "estante".
 
 ---
 
 ### 2️⃣ Listas (`List<T>`): A "mochila" expansível
 
-Agora, imagine que em vez de uma estante fixa, você tem uma mochila para guardar seus livros. Você pode começar com um livro, adicionar mais dois depois e, se precisar, remover um. A mochila se ajusta à quantidade de livros que você carrega. Essa é a essência de uma Lista (`List<T>`) em C#.
+Agora, imagine que em vez de uma estante fixa, você tem uma mochila para guardar seus livros. Você pode começar com um livro, adicionar mais dois depois e, se precisar, remover um. A mochila se ajusta à quantidade de livros que você carrega. Essa é a essência de uma **lista** (`List<T>`) em C#.
 
 Uma `List<T>` é uma coleção **dinâmica**, ou seja, seu tamanho pode aumentar ou diminuir conforme você adiciona ou remove elementos. O `<T>` na sintaxe significa que ela é "genérica", ou seja, você define o tipo de dado que ela vai armazenar ao criá-la (por exemplo, `List<int>` para inteiros, `List<string>` para textos).
 
 **Características principais:**
 
-🔹 **Tamanho dinâmico:** Você pode adicionar e remover itens livremente, e a lista se ajusta automaticamente.    
+🔹 **Tamanho dinâmico:** Você pode adicionar e remover itens livremente, e a **lista** se ajusta automaticamente.    
 🔹 **Mesmo tipo de dado (Type-Safe):** Assim como os arrays, uma `List<T>` só armazena elementos do tipo que você especificou.      
 🔹 **Flexibilidade:** Oferece métodos úteis para adicionar, remover, buscar e ordenar elementos.    
 
@@ -175,7 +175,7 @@ nomes.RemoveAt(0);
 
 **Verificando o tamanho:**
 
-Para saber quantos itens existem em uma lista, você usa a propriedade `.Count` (diferente do `.Length` dos arrays).
+Para saber quantos itens existem em uma **lista**, você usa a propriedade `.Count` (diferente do `.Length` dos arrays).
 
 ```csharp
 
