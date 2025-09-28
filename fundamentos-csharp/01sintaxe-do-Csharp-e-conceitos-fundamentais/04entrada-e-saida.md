@@ -33,7 +33,7 @@ Para que um programa seja útil, ele precisa, no mínimo, nos mostrar o que est�
 
 O método `WriteLine()` exibe uma informação no console e, em seguida, move o cursor para a próxima linha. É como digitar algo e pressionar "Enter".
 
-🧠 **Exemplo:** 
+**🧠 Exemplo:** 
 
 ```csharp
 
@@ -58,7 +58,7 @@ Eu tenho 44 anos.
 
 Diferente do `WriteLine()`, o método `Write()` exibe a informação e mantém o cursor na mesma linha, permitindo que a próxima saída de dados comece imediatamente após a anterior.
 
-🧠 **Exemplo:**
+**🧠 Exemplo:**
 
 ```csharp
 
@@ -86,7 +86,7 @@ Exibir texto puro é útil, mas frequentemente precisamos combinar textos com os
 
 A forma mais tradicional é "somar" (concatenar) strings usando o operador `+`.
 
-🧠 **Exemplo:**
+**🧠 Exemplo:**
 
 ```csharp
 
@@ -109,7 +109,7 @@ A usuária Maria tem 25 anos de idade.
 
 A interpolação de strings é uma maneira mais limpa, legível e eficiente de embutir expressões e variáveis dentro de uma string. Para usá-la, basta colocar um cifrão (`$`) antes das aspas da string e envolver as variáveis em chaves (`{}`).
 
-🧠 **Exemplo:**
+**🧠 Exemplo:**
 
 ```csharp
 
@@ -165,7 +165,7 @@ else
 
 Funções são blocos de código reutilizáveis que executam uma tarefa específica.
 
-🧠 **Exemplo:**
+**🧠 Exemplo:**
 
 ```csharp
 

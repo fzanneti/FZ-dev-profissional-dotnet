@@ -32,7 +32,7 @@ Os operadores aritméticos são a espinha dorsal de qualquer operação matemát
 
 > ⚠️ **Ponto de Atenção:** A divisão de números inteiros (`int`) em C# resultará em um número inteiro, descartando qualquer parte fracionária. Para obter um resultado com casas decimais, ao menos um dos operandos deve ser de um tipo de ponto flutuante, como `double` ou `float`.
 
-🧠 **Exemplo:** 
+**🧠 Exemplo:** 
 
 ```csharp
 
@@ -57,7 +57,7 @@ Os operadores de comparação são essenciais para o controle de fluxo do seu pr
 
 > Esses operadores são frequentemente utilizados em conjunto com estruturas condicionais como `if`, `else` e `switch`.
 
-🧠 **Exemplo:** 
+**🧠 Exemplo:** 
 
 ```csharp
 
@@ -92,7 +92,7 @@ Os operadores lógicos permitem combinar múltiplas expressões booleanas para c
 
 Esse comportamento pode ser utilizado para otimizar o desempenho e evitar exceções em seu código.
 
-🧠 **Exemplo:**
+**🧠 Exemplo:**
 
 **Vamos criar um exemplo que utiliza os três tipos de operadores para determinar se um usuário tem acesso a um determinado recurso do sistema.**
 

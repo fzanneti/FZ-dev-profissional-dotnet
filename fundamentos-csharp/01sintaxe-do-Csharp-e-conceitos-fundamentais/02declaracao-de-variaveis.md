@@ -63,7 +63,7 @@ O C# é uma linguagem fortemente tipada. Isso significa que você deve especific
                `clienteEmail` é melhor que `cEmail`.
 - **Regras:** Não pode começar com número e não pode conter espaços ou caracteres especiais (exceto `_`).
 
-🧠 **Exemplo:** 
+**🧠 Exemplo:** 
 
 Vamos ver como isso funciona em um pequeno trecho de uma aplicação de console em C#.
 
@@ -129,7 +129,7 @@ A partir do C# 3.0, você pode usar a palavra-chave `var`. Ao usar `var`, você 
 - Você deve inicializar a variável na mesma linha da declaração.
 - É apenas um "açúcar sintático" para o desenvolvedor. Após a compilação, a variável terá um tipo forte definido, exatamente como se você o tivesse escrito.
 
-**Exemplo com `var`:**
+**🧠 Exemplo com `var`:**
 
 ```csharp
 

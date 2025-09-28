@@ -41,7 +41,7 @@ Tipos de dados definem que tipo de informação uma variável pode armazenar. El
     2. IDs
     3. Números inteiros
 
-**Exemplo de dados `int` (Inteiro):**
+**🧠 Exemplo de dados `int` (Inteiro):**
 
 ```csharp
 
@@ -61,7 +61,7 @@ int quantidade = 100;
     2. Mensagens
     3. Textos
 
-**Exemplo de dados `string`:**
+**🧠 Exemplo de dados `string`:**
 
 ```csharp
 
@@ -81,7 +81,7 @@ string mensagem = "Olá, mundo!";
     1. Condições
     2. Flags lógicas
 
-**Exemplo de dados `bool`:**
+**🧠 Exemplo de dados `bool`:**
 
 ```csharp
 
@@ -100,7 +100,7 @@ bool temPermissao = false;
     1. Valores decimais
     2. Cálculos científicos
 
-**Exemplo de dados `double`:**
+**🧠 Exemplo de dados `double`:**
 
 ```csharp
 
@@ -117,7 +117,7 @@ double pi = 3.1415926535;
 - **Uso:**
     1. Caracteres individuais
 
-**Exemplo de dados `char`:**
+**🧠 Exemplo de dados `char`:**
 
 ```csharp
 
@@ -134,7 +134,7 @@ char simbolo = '$';
     1. O compilador determina o tipo automaticamente
 - **Vantagem:** Código mais limpo, mas o tipo é definido em tempo de compilação
 
-**Exemplo de dados `var`:**
+**🧠 Exemplo de dados `var`:**
 
 ```csharp
 
