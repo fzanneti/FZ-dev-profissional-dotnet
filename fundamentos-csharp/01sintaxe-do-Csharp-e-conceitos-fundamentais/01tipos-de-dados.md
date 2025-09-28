@@ -1,4 +1,4 @@
-# Estudo - Sintaxe do C# e Conceitos Fundamentais
+# Sintaxe do C# e Conceitos Fundamentais
 
 ![Badge](https://img.shields.io/badge/Fabio%20Zanneti%20da%20Silva-Profissional-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
@@ -10,13 +10,15 @@
 ![GitHub forks](https://img.shields.io/github/forks/fzanneti/dev-profissional-dotnet?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/fzanneti/dev-profissional-dotnet?style=social)
 ![Linguagem](https://img.shields.io/badge/Linguagem-CSharp-black)
+![Ambiente](https://img.shields.io/badge/Ambiente-.NET-black)
 ![Autor](https://img.shields.io/badge/Autor-fzanneti-black?style=flat-square&logo=github)
 
 [![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
 
 ---
 
-**O que são tipos de dados?**     
+**O que são tipos de dados?** 
+
 Tipos de dados definem que tipo de informação uma variável pode armazenar. Eles são a base de qualquer linguagem de programação.
 
 **Tabela comparativa de tipos**
@@ -158,6 +160,6 @@ var ativo = true;        // bool
 
 ---
 
-##### ✍️ Seção criada por: *Fabio Zanneti da Silva* - 🎯 Material de estudo: *C# / .Net*
+##### ✍️ Seção criada por: *Fabio Zanneti da Silva* - 🎯 *C# / .Net*
 [![GitHub](https://img.shields.io/badge/GitHub-fzanneti-000000?style=flat&logo=github)](https://github.com/fzanneti)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-fzanneti-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/fzanneti)
