@@ -1,8 +1,8 @@
-# Estruturas de Dados, Loops e Condicionais
+# ![Badge](https://img.shields.io/badge/2._Estruturas_de_Dados%2c_Loops_e_Condicionais-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
 ![Badge](https://img.shields.io/badge/Fabio%20Zanneti%20da%20Silva-Profissional-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-![Badge](https://img.shields.io/badge/1._Arrays_e_Listas-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Badge](https://img.shields.io/badge/2.1._Arrays_e_Listas-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
 > Aprendizado estruturado para se tornar desenvolvedor .NET profissional, com foco em C#, ASP.NET Core, APIs e integração com Inteligência Artificial.
 
