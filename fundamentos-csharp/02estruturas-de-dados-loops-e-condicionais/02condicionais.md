@@ -211,7 +211,7 @@ Para um iniciante, a escolha entre `if-else` e `switch` pode parecer confusa. Aq
 🔹 Use `if-else` ou `if-else if` quando estiver a lidar com condições complexas que envolvem intervalos (por exemplo, `nota >= 90`), comparações lógicas (`&&` - E, `||` - OU) ou múltiplas variáveis.       
 🔹 Use `switch` quando estiver a comparar o valor de uma única variável com uma lista de valores específicos e constantes (números, strings, etc.). Geralmente, resulta num código mais limpo e legível para este cenário.     
 
-Dominar as condicionais `if`, `else` e `switch` é o primeiro grande passo para escrever programas que são mais do que apenas uma sequência de comandos. É o ponto em que você começa a dar inteligência e flexibilidade ao seu código. Continue a praticar com diferentes cenários e, em breve, tomar decisões nos seus programas C# será algo natural e intuitivo.
+> Dominar as condicionais `if`, `else` e `switch` é o primeiro grande passo para escrever programas que são mais do que apenas uma sequência de comandos. É o ponto em que você começa a dar inteligência e flexibilidade ao seu código. Continue a praticar com diferentes cenários e, em breve, tomar decisões nos seus programas C# será algo natural e intuitivo.
 
 ---
 
