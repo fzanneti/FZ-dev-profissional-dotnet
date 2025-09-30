@@ -17,8 +17,6 @@
 
 ---
 
-Bem-vindo à quarta parte do nosso guia definitivo de C# para iniciantes! Após aprendermos sobre variáveis, operadores e tipos de dados, é hora de dar um passo crucial: fazer nossos programas interagirem com o usuário. Nesta seção, vamos explorar como exibir informações na tela (saída) e como receber dados digitados pelo usuário (entrada).
-
 **A porta de entrada e saída: O console**
 
 Em nossas primeiras aplicações, o principal meio de comunicação será o `console`, também conhecido como terminal ou prompt de comando. É aquela tela de texto onde podemos executar comandos e ver os resultados de nossos programas. Em C#, a classe `Console` é a ferramenta fundamental para todas as operações de entrada e saída nesse ambiente.
