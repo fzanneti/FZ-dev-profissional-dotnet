@@ -14,5 +14,8 @@ Repositório dedicado à minha jornada de aprendizado e formação profissional 
  ┃ ┃ ┣ 📄 04entrada-e-saida.md    
  ┃ ┣ 📂 02estruturas-de-dados-loops-e-condicionais  
  ┃ ┃ ┣ 📄 01arrays-e-listas.md    
- ┃ ┃ ┣ 📄 02condicionais.md          
+ ┃ ┃ ┣ 📄 02condicionais.md   
+ ┃ ┃ ┣ 📄 03loops.md    
+ ┃ ┣ 📂 03poo-classes-herança-polimorfismo  
+ ┃ ┃ ┣ 📄 01classe.md               
  ┗ 📜 README.md   
