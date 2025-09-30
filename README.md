@@ -17,5 +17,6 @@ Repositório dedicado à minha jornada de aprendizado e formação profissional 
  ┃ ┃ ┣ 📄 02condicionais.md   
  ┃ ┃ ┣ 📄 03loops.md    
  ┃ ┣ 📂 03poo-classes-herança-polimorfismo  
- ┃ ┃ ┣ 📄 01classe.md               
+ ┃ ┃ ┣ 📄 01classe.md
+ ┃ ┃ ┣ 📄 02encapsulamento.md               
  ┗ 📜 README.md   
