@@ -32,6 +32,8 @@ Tipos de dados definem que tipo de informação uma variável pode armazenar. El
 |`string`|Texto (sequência de caracteres)|`"Olá mundo"`|Tipo de referência|
 |`var`|Tipo inferido pelo compilador|`var idade = 20;`|Tipo implícito|
 
+---
+
 ### 1️⃣ `int`:
 - Tipo numérico inteiro
 - **Tamanho:** 32 bits (4 bytes)

@@ -20,6 +20,8 @@
 
 No universo do desenvolvimento com a plataforma .Net e a linguagem C#, o domínio dos operadores é fundamental para a construção de lógicas de programação robustas, eficientes e legíveis. Como especialista na área, apresento de forma clara e objetiva os principais operadores, divididos em suas categorias, com exemplos práticos que ilustram seu funcionamento.
 
+---
+
 ### 1️⃣ Operadores aritméticos: A base dos cálculos
 Os operadores aritméticos são a espinha dorsal de qualquer operação matemática em seu código. Eles permitem realizar desde simples adições até cálculos mais complexos.
 

@@ -21,6 +21,8 @@ No universo da programação em C#, saber como agrupar e gerenciar dados é uma 
 
 Este guia foi criado para ser o seu ponto de partida, desmistificando esses conceitos de forma clara e didática, mesmo que você nunca tenha escrito uma linha de código.
 
+---
+
 ### 1️⃣ Arrays: As "caixas" de tamanho fixo
 
 Imagine que você precisa guardar uma coleção de livros em uma estante. Antes de comprar a estante, você decide que ela terá espaço para exatamente 5 livros. Nem mais, nem menos. Um **array** em C# funciona de maneira muito parecida.
