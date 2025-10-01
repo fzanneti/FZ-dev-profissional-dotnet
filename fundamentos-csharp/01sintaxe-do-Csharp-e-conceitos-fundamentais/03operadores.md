@@ -136,6 +136,16 @@ if (naoEhAdmin)
 
 ---
 
+### Resumo Prático:
+
+- **Conheça os principais operadores:** Aritméticos, de comparação e lógicos são a base da construção de lógica em C# - saber como e quando usá-los é essencial.
+- **Atenção à divisão entre inteiros:** Divisões com `int` descartam a parte decimal. Use `double` ou `float` para resultados precisos com casas decimais.
+- **Operadores de comparação retornam `bool`:** São fundamentais para decisões com `if`, `while`, `switch`, entre outros.
+- **Use operadores lógicos para combinar condições:** `&&`, `||` e `!` tornam suas verificações mais flexíveis. Aproveite o **curto-circuito** para otimizar o código.
+- **Exemplo prático importa:** Não basta decorar operadores - entenda seu uso em contexto. Um bom exemplo ajuda mais que uma lista isolada.
+
+---
+
 ##### ✍️ Seção criada por: *Fabio Zanneti da Silva* - 🎯 *C# / .Net*
 [![GitHub](https://img.shields.io/badge/GitHub-fzanneti-000000?style=flat&logo=github)](https://github.com/fzanneti)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-fzanneti-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/fzanneti)

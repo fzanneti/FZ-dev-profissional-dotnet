@@ -33,7 +33,7 @@ Pense em uma variável como uma "caixa" na memória do computador, etiquetada co
 
 ---
 
-### 1️⃣ Tipos de Dados (O que a caixa pode guardar?):
+### 1️⃣ Tipos de dados (O que a caixa pode guardar?):
 
 O C# é uma linguagem fortemente tipada. Isso significa que você deve especificar o tipo de dado que a variável vai armazenar no momento da sua criação. Isso garante segurança e previne erros, pois o compilador sabe exatamente que tipo de operação é permitida para cada variável.
 
@@ -120,7 +120,7 @@ Valor total em estoque: R$ 1.875,00
 
 ---
 
-### 3️⃣ Inferência de Tipo com `var` (Uma forma mais concisa)
+### 3️⃣ Inferência de tipo com `var` (Uma forma mais concisa)
 
 A partir do C# 3.0, você pode usar a palavra-chave `var`. Ao usar `var`, você pede ao compilador para inferir (descobrir) o tipo da variável com base no valor que você está atribuindo a ela.
 
@@ -147,9 +147,11 @@ var compraAprovada = false;
 
 ```
 
-**Quando usar `var`?** Use quando o tipo da variável for óbvio pelo lado direito da atribuição, tornando o código mais limpo. Por exemplo, `var cliente = new Cliente();` é mais limpo que `Cliente cliente = new Cliente();`.
+> **Quando usar `var`?** Use quando o tipo da variável for óbvio pelo lado direito da atribuição, tornando o código mais limpo. Por exemplo, `var cliente = new Cliente();` é mais limpo que `Cliente cliente = new Cliente();`.
 
-**Resumo:**
+---
+
+### Resumo Prático:
 
 - **Sempre especifique o tipo:** Seja explicitamente (`int`, `string`) ou implicitamente (`var`), toda variável em C# tem um tipo definido.
 - **Inicialize suas variáveis:** Evite usar variáveis que não receberam um valor inicial. O compilador C# é inteligente e muitas vezes o alertará sobre isso para prevenir erros em tempo de execução.
