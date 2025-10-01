@@ -23,14 +23,15 @@ Tipos de dados definem que tipo de informação uma variável pode armazenar. El
 
 **Tabela comparativa de tipos**
 
-|**Nome**|**Descrição**|**Exemplo de valor**|**Termo técnico**|
-|:---:|---|---|---|
-|`int`|Números inteiros|`42`|Tipo de valor|
-|`double`|Números decimais (com ponto)|`3.14`|Tipo de valor|
-|`bool`|Verdadeiro ou falso|`true`|Tipo de valor|
-|`char`|Um único caractere|`'A'`|Tipo de valor|
-|`string`|Texto (sequência de caracteres)|`"Olá mundo"`|Tipo de referência|
-|`var`|Tipo inferido pelo compilador|`var idade = 20;`|Tipo implícito|
+|**Nome**|**Descrição**|**Exemplo de valor**|
+|:---:|:---:|:---:|
+|`int`|Números inteiros|`42`|
+|`double`|Números decimais (com ponto)|`3.14`|
+|`decimal`|Números decimais (alta precisão, ponto fixo)|`3.14m`|
+|`bool`|Verdadeiro ou falso|`true`|
+|`char`|Um único caractere|`'A'`|
+|`string`|Texto (sequência de caracteres)|`"Olá mundo"`|
+|`var`|Tipo inferido pelo compilador|`var idade = 20;`|
 
 ---
 
@@ -111,8 +112,32 @@ double pi = 3.1415926535;
 
 ```
 
+---
 
-### 5️⃣ `char` (Caractere): 
+### 5️⃣ `decimal` (Alta precisão para valores decimais):
+- **O que é?:** Tipo de dado numérico de ponto fixo com alta precisão, utilizado principalmente para cálculos financeiros e monetários. Ele armazena números decimais com **28 a 29 dígitos significativos**, evitando erros de arredondamento comuns em tipos de ponto flutuante como `double`. Ideal quando a exatidão é mais importante que a performance.
+
+- **Tamanho:** 128 bits (16 bytes)
+- **Valores:** ±1.0 × 10⁻²⁸ a ±7.9 × 10²⁸
+- **Uso:**
+    1. Valores monetários
+    2. Cálculos financeiros precisos
+    3. Situações em que erros de arredondamento devem ser evitados
+
+**🧠 Exemplo de dados `decimal`:**
+
+```csharp
+
+decimal salario = 12345.67m;
+decimal juros = 0.015m;
+
+```
+
+> **Nota:** É necessário usar o sufixo `m` (ou `M`) para indicar que o número é do tipo `decimal`.
+
+---
+
+### 6️⃣ `char` (Caractere): 
 - **O que é?:** Um único caractere Unicode, ou seja, uma unidade fundamental de texto que representa um símbolo único, como uma letra, um número ou um sinal, padronizado pelo padrão Unicode. Em termos práticos, é o menor "pedaço" de texto que um computador pode manipular. O Unicode atribui um valor numérico único a cada caractere, conhecido como ponto de código, para que diferentes sistemas e idiomas possam representá-los de forma consistente.
 - **Tamanho:** 16 bits (2 bytes)
 - **Valores:** Caractere entre aspas simples
@@ -130,7 +155,7 @@ char simbolo = '$';
 
 ---
 
-### 6️⃣ `var` (Inferência de Tipo): 
+### 7️⃣ `var` (Inferência de Tipo): 
 - **O que é?:** Não é um tipo, mas uma palavra-chave para inferência de tipo, ou seja, é a capacidade de um compilador ou interpretador de deduzir automaticamente o tipo de uma variável ou expressão sem que o programador precise declará-lo explicitamente. Em vez de escrever `<string> minhavariavel = "hello"`, o código se torna `<var> minhavariavel = "hello"`, onde o compilador infere que `minhavariavel` é do tipo `string`. Isso torna o código mais conciso e legível, sendo uma técnica comum em linguagens de programação modernas.
 - **Uso:**
     1. O compilador determina o tipo automaticamente
@@ -154,9 +179,12 @@ var ativo = true;        // bool
 - Use `int` para números inteiros
 - Use `string` para textos
 - Use `bool` para verdadeiro/falso
-- Use `double` para números com casas decimais
+- Use `double` para números com casas decimais (comuns, como em cálculos científicos)
+- Use `decimal` para números decimais que exigem **alta precisão**, como em cálculos **financeiros e monetários**
 - Use `char` para caracteres únicos
 - Use `var` quando o tipo for óbvio pelo valor atribuído
+
+> O `decimal` é ideal quando **precisão nos valores decimais** é essencial, como em operações com dinheiro (ex: salários, impostos, juros). Deve ser usado com o sufixo `m` (ex: `199.99m`).
 
 > O `var` é especialmente útil em consultas **LINQ** que são uma forma integrada à linguagem de consultar diversas fontes de dados (como coleções de objetos em memória, bancos de dados e XML) diretamente no código .NET (C# e Visual Basic), oferecendo uma sintaxe declarativa, similar à SQL, para filtrar, ordenar e agrupar dados de maneira eficiente e padronizada, e quando os nomes de tipos são longos. **Sempre inicialize variáveis** `var` na declaração.
 
