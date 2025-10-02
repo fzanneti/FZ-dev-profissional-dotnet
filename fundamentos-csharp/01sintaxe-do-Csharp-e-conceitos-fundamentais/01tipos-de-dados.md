@@ -12,7 +12,9 @@
 ![Linguagem](https://img.shields.io/badge/Linguagem-C%23-blue)
 ![Ambiente](https://img.shields.io/badge/Ambiente-.NET-blue)
 [![C# - Tipos de Dados](https://img.shields.io/badge/🔗%20C%23-Tipos%20de%20Dados-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/built-in-types)
-[![Tipos de Dados](https://img.shields.io/badge/🔗%20WEX-Tipos%20de%20Dados-ff0000?logo=c-sharp&logoColor=white)](https://github.com/fzanneti/DIO-wex-e2e-csharp/blob/main/Content/2-sintaxe-basica-com-DotNetCSharp/1-tipos-de-dados.md)
+[![Wex - C# - Tipos de Dados](https://img.shields.io/badge/🔗%20WEX-Tipos%20de%20Dados-ff0000?logo=c-sharp&logoColor=white)](https://github.com/fzanneti/DIO-wex-e2e-csharp/blob/main/Content/2-sintaxe-basica-com-DotNetCSharp/1-tipos-de-dados.md)
+
+[⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/README.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/02declaracao-de-variaveis.md)
 
 ---
 
@@ -188,6 +190,8 @@ var ativo = true;        // bool
 > O `var` é especialmente útil em consultas **LINQ** que são uma forma integrada à linguagem de consultar diversas fontes de dados (como coleções de objetos em memória, bancos de dados e XML) diretamente no código .NET (C# e Visual Basic), oferecendo uma sintaxe declarativa, similar à SQL, para filtrar, ordenar e agrupar dados de maneira eficiente e padronizada, e quando os nomes de tipos são longos. **Sempre inicialize variáveis** `var` na declaração.
 
 ---
+
+[⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/README.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/02declaracao-de-variaveis.md)
 
 ##### ✍️ Seção criada por: *Fabio Zanneti da Silva* - 🎯 *C# / .Net*
 [![GitHub](https://img.shields.io/badge/GitHub-fzanneti-000000?style=flat&logo=github)](https://github.com/fzanneti)

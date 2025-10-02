@@ -1,21 +1,21 @@
 # ![Badge](https://img.shields.io/badge/1._Sintaxe_do_C%23_e_Conceitos_Fundamentais-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-![Badge](https://img.shields.io/badge/Fabio%20Zanneti%20da%20Silva-Profissional-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
-
 ![Badge](https://img.shields.io/badge/1.3._Operadores-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
+[![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
 
 > Aprendizado estruturado para se tornar desenvolvedor .NET profissional, com foco em C#, ASP.NET Core, APIs e integração com Inteligência Artificial.
 
+![Autor](https://img.shields.io/badge/Autor-Fabio%20Zanneti%20da%20Silva-black?style=flat-square&logo=github)
 ![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/dev-profissional-dotnet)
 ![GitHub forks](https://img.shields.io/github/forks/fzanneti/dev-profissional-dotnet?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/fzanneti/dev-profissional-dotnet?style=social)
-![Linguagem](https://img.shields.io/badge/Linguagem-CSharp-black)
-![Ambiente](https://img.shields.io/badge/Ambiente-.NET-black)
-[![C# - Referência de Operadores](https://img.shields.io/badge/C%23-Referência%20de%20Operadores-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/)
-![Autor](https://img.shields.io/badge/Autor-fzanneti-black?style=flat-square&logo=github)
+![Linguagem](https://img.shields.io/badge/Linguagem-C%23-blue)
+![Ambiente](https://img.shields.io/badge/Ambiente-.NET-blue)
+[![C# - Referência de operadores](https://img.shields.io/badge/C%23-Referência%20de%20Operadores-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/)
+[![Wex - C# - Tipos de operadores](https://img.shields.io/badge/🔗%20WEX-Tipos%20de%20Operadores-ff0000?logo=c-sharp&logoColor=white)](https://github.com/fzanneti/DIO-wex-e2e-csharp/blob/main/Content/2-sintaxe-basica-com-DotNetCSharp/2-tipos-de-operadores-em-CSharp.md)
+[![Wex - C# - Operadores Aritméticos](https://img.shields.io/badge/🔗%20WEX-Operadores%20Aritméticos-ff0000?logo=c-sharp&logoColor=white)](https://github.com/fzanneti/DIO-wex-e2e-csharp/blob/main/Content/2-sintaxe-basica-com-DotNetCSharp/3-operadores-aritmeticos-em-CSharp.md)
 
-[![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
-
+[⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/02declaracao-de-variaveis.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/04entrada-e-saida.md)
 
 ---
 
@@ -158,6 +158,8 @@ if (naoEhAdmin)
 </a>
 
 ---
+
+[⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/02declaracao-de-variaveis.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/04entrada-e-saida.md)
 
 ##### ✍️ Seção criada por: *Fabio Zanneti da Silva* - 🎯 *C# / .Net*
 [![GitHub](https://img.shields.io/badge/GitHub-fzanneti-000000?style=flat&logo=github)](https://github.com/fzanneti)

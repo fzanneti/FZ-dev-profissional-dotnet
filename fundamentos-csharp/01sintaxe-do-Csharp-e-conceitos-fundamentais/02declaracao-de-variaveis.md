@@ -1,20 +1,20 @@
 # ![Badge](https://img.shields.io/badge/1._Sintaxe_do_C%23_e_Conceitos_Fundamentais-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-![Badge](https://img.shields.io/badge/Fabio%20Zanneti%20da%20Silva-Profissional-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
-
 ![Badge](https://img.shields.io/badge/1.2._Declaração_de_Variáveis-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
+[![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
+
 
 > Aprendizado estruturado para se tornar desenvolvedor .NET profissional, com foco em C#, ASP.NET Core, APIs e integração com Inteligência Artificial.
 
+![Autor](https://img.shields.io/badge/Autor-Fabio%20Zanneti%20da%20Silva-black?style=flat-square&logo=github)
 ![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/dev-profissional-dotnet)
 ![GitHub forks](https://img.shields.io/github/forks/fzanneti/dev-profissional-dotnet?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/fzanneti/dev-profissional-dotnet?style=social)
-![Linguagem](https://img.shields.io/badge/Linguagem-CSharp-black)
-![Ambiente](https://img.shields.io/badge/Ambiente-.NET-black)
-[![C# - Tipos em declarações de variáveis](https://img.shields.io/badge/C%23-Tipos%20em%20declarações%20de%20variáveis-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/#specifying-types-in-variable-declarations)
-![Autor](https://img.shields.io/badge/Autor-fzanneti-black?style=flat-square&logo=github)
+![Linguagem](https://img.shields.io/badge/Linguagem-C%23-blue)
+![Ambiente](https://img.shields.io/badge/Ambiente-.NET-blue)
+[![C# - Tipos em declarações de variáveis](https://img.shields.io/badge/🔗%20C%23-Tipos%20em%20declarações%20de%20variáveis-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/#specifying-types-in-variable-declarations)
 
-[![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
+[⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/01tipos-de-dados.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/03operadores.md)
 
 ---
 
@@ -30,29 +30,11 @@ Pense em uma variável como uma "caixa" na memória do computador, etiquetada co
 
 `tipo_de_dado nome_da_variavel = valor_inicial;`
 
-*Vamos detalhar os componentes e ver exemplos práticos.*
+> *Vamos detalhar os componentes e ver exemplos práticos.*
 
 ---
 
-### 1️⃣ Tipos de dados (O que a caixa pode guardar?):
-
-O C# é uma linguagem fortemente tipada. Isso significa que você deve especificar o tipo de dado que a variável vai armazenar no momento da sua criação. Isso garante segurança e previne erros, pois o compilador sabe exatamente que tipo de operação é permitida para cada variável.
-
-**Aqui estão os tipos mais comuns que você usará no dia a dia:**
-
-|**Tipo de dado**|**Palavra-chave em C#**|**Descrição**|**Exemplo**|
-|---|---|---|---|
-|**Inteiros**|`int`|Armazena números inteiros (sem casas decimais)|`int idade = 30;`|
-|**Ponto Flutuante**|`double` ou `float`|Armazena números com casas decimais. `double` tem maior precisão|`double preco = 19.99;`|
-|**Decimal**|`decimal`|Usado para valores financeiros e monetários, onde a precisão é crucial|`decimal salario = 5500.75m;` (note o sufixo `m`)|
-|**Texto**|`string`|Armazena uma sequência de caracteres (texto)|`string nomeCliente = "João da Silva";`|
-|**Caractere Único**|`char`|Armazena um único caractere|`char inicial = 'J';` (note as aspas simples)|
-|**Booleano**|`bool`|Armazena um de dois valores: `true` ou `false`|`bool clienteAtivo = true;`|
-|**Data e Hora**|`DateTime`|Armazena informações de data e hora|`DateTime dataCadastro = DateTime.Now;`|
-
----
-
-### 2️⃣ Nome da variável (A etiqueta da caixa)
+### 1️⃣ Nome da variável (A etiqueta da caixa)
 
 **O nome que você dá à variável é o seu identificador. Boas práticas de nomenclatura são essenciais para um código limpo e legível. Em C#:**
 
@@ -121,7 +103,7 @@ Valor total em estoque: R$ 1.875,00
 
 ---
 
-### 3️⃣ Inferência de tipo com `var` (Uma forma mais concisa)
+### 2️⃣ Inferência de tipo com `var` (Uma forma mais concisa)
 
 A partir do C# 3.0, você pode usar a palavra-chave `var`. Ao usar `var`, você pede ao compilador para inferir (descobrir) o tipo da variável com base no valor que você está atribuindo a ela.
 
@@ -160,6 +142,8 @@ var compraAprovada = false;
 - **Escolha o tipo certo para o trabalho:** Usar `decimal` para dinheiro e `int` para contagens simples não é apenas uma boa prática, é fundamental para a precisão e performance da sua aplicação .NET.
 
 ---
+
+[⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/01tipos-de-dados.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/03operadores.md)
 
 ##### ✍️ Seção criada por: *Fabio Zanneti da Silva* - 🎯*C# / .Net*
 [![GitHub](https://img.shields.io/badge/GitHub-fzanneti-000000?style=flat&logo=github)](https://github.com/fzanneti)
