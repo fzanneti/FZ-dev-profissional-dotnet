@@ -147,18 +147,6 @@ if (naoEhAdmin)
 
 ---
 
-<a href="https://github.com/fzanneti/DIO-wex-e2e-csharp/blob/main/Content/2-sintaxe-basica-com-DotNetCSharp/2-tipos-de-operadores-em-CSharp.md" target="_blank" style="text-decoration: none;">
-  <div style="background-color: #261d31; border: 1px solid #7a49c6; border-radius: 8px; padding: 16px; width: 420px; font-family: sans-serif; color: #ffffff; display: flex; align-items: center;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" style="width: 40px; height: 40px; margin-right: 16px;" />
-    <div>
-      <div style="font-size: 18px; font-weight: bold; color: #37ccab;">Tipos de operadores</div>
-      <div style="font-size: 14px; color: #ccc;">Conteúdo sobre tipos de operadores em C# <br>Parte do repositório <strong>DIO-wex-e2e-csharp</strong></div>
-    </div>
-  </div>
-</a>
-
----
-
 [⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/02declaracao-de-variaveis.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/04entrada-e-saida.md)
 
 ##### ✍️ Seção criada por: *Fabio Zanneti da Silva* - 🎯 *C# / .Net*
