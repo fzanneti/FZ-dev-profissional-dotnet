@@ -1,19 +1,20 @@
 # ![Badge](https://img.shields.io/badge/2._Estruturas_de_Dados%2c_Loops_e_Condicionais-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-![Badge](https://img.shields.io/badge/Fabio%20Zanneti%20da%20Silva-Profissional-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
-
 ![Badge](https://img.shields.io/badge/2.1._Arrays_e_Listas-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
+[![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
 
 > Aprendizado estruturado para se tornar desenvolvedor .NET profissional, com foco em C#, ASP.NET Core, APIs e integração com Inteligência Artificial.
 
+![Autor](https://img.shields.io/badge/Autor-Fabio%20Zanneti%20da%20Silva-black?style=flat-square&logo=github)
 ![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/dev-profissional-dotnet)
 ![GitHub forks](https://img.shields.io/github/forks/fzanneti/dev-profissional-dotnet?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/fzanneti/dev-profissional-dotnet?style=social)
-![Linguagem](https://img.shields.io/badge/Linguagem-CSharp-black)
-![Ambiente](https://img.shields.io/badge/Ambiente-.NET-black)
-![Autor](https://img.shields.io/badge/Autor-fzanneti-black?style=flat-square&logo=github)
+![Linguagem](https://img.shields.io/badge/Linguagem-C%23-blue)
+![Ambiente](https://img.shields.io/badge/Ambiente-.NET-blue)
+[![Documentação do C#](https://img.shields.io/badge/🔗%20C%23-Documentação-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/)
+[![Wex - End to End Engineering](https://img.shields.io/badge/🔗%20DIO%20Repositório-WEX%20E2E%20C%23-ff0000?logo=c-sharp&logoColor=white)](https://github.com/fzanneti/DIO-wex-e2e-csharp)
 
-[![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
+[⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/04entrada-e-saida.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/02estruturas-de-dados-loops-e-condicionais/02condicionais.md)
 
 ---
 
@@ -368,6 +369,8 @@ Total de tarefas: 3
 > Este exemplo demonstra o "mundo real" da programação, onde diferentes ferramentas são usadas para resolver diferentes partes de um problema. Compreender quando usar a rigidez eficiente de um **Array** e quando usar a flexibilidade de uma **Lista** é um passo crucial para se tornar um bom desenvolvedor C#.
 
 ---
+
+[⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/04entrada-e-saida.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/02estruturas-de-dados-loops-e-condicionais/02condicionais.md)
 
 ##### ✍️ Seção criada por: *Fabio Zanneti da Silva* - 🎯 *C# / .Net*
 [![GitHub](https://img.shields.io/badge/GitHub-fzanneti-000000?style=flat&logo=github)](https://github.com/fzanneti)
