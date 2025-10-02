@@ -1,21 +1,18 @@
 # ![Badge](https://img.shields.io/badge/1._Sintaxe_do_C%23_e_Conceitos_Fundamentais-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-![Badge](https://img.shields.io/badge/Fabio%20Zanneti%20da%20Silva-Profissional-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
-
-![Badge](https://img.shields.io/badge/1.1._Tipos_de_Dados-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Badge](https://img.shields.io/badge/1.1._Tipos_de_Dados-blue?style=for-the-badge&logo=c-sharp&logoColor=white) 
+[![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
 
 > Aprendizado estruturado para se tornar desenvolvedor .NET profissional, com foco em C#, ASP.NET Core, APIs e integração com Inteligência Artificial.
 
+![Autor](https://img.shields.io/badge/Autor-Fabio%20Zanneti%20da%20Silva-black?style=flat-square&logo=github)
 ![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/dev-profissional-dotnet)
 ![GitHub forks](https://img.shields.io/github/forks/fzanneti/dev-profissional-dotnet?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/fzanneti/dev-profissional-dotnet?style=social)
-![Linguagem](https://img.shields.io/badge/Linguagem-CSharp-black)
-![Ambiente](https://img.shields.io/badge/Ambiente-.NET-black)
-[![C# - Tipos Primitivos](https://img.shields.io/badge/C%23-Tipos%20de%20Dados-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/built-in-types)
-[![Tipos de Dados](https://img.shields.io/badge/WEX-Tipos%20de%20Dados-ff0000?logo=c-sharp&logoColor=white)](https://github.com/fzanneti/DIO-wex-e2e-csharp/blob/main/Content/2-sintaxe-basica-com-DotNetCSharp/1-tipos-de-dados.md)
-![Autor](https://img.shields.io/badge/Autor-fzanneti-black?style=flat-square&logo=github)
-
-[![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
+![Linguagem](https://img.shields.io/badge/Linguagem-C%23-blue)
+![Ambiente](https://img.shields.io/badge/Ambiente-.NET-blue)
+[![C# - Tipos de Dados](https://img.shields.io/badge/🔗%20C%23-Tipos%20de%20Dados-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/built-in-types)
+[![Tipos de Dados](https://img.shields.io/badge/🔗%20WEX-Tipos%20de%20Dados-ff0000?logo=c-sharp&logoColor=white)](https://github.com/fzanneti/DIO-wex-e2e-csharp/blob/main/Content/2-sintaxe-basica-com-DotNetCSharp/1-tipos-de-dados.md)
 
 ---
 
