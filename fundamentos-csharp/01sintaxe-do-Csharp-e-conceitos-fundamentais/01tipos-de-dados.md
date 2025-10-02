@@ -11,6 +11,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/fzanneti/dev-profissional-dotnet?style=social)
 ![Linguagem](https://img.shields.io/badge/Linguagem-CSharp-black)
 ![Ambiente](https://img.shields.io/badge/Ambiente-.NET-black)
+[![C# - Tipos Primitivos](https://img.shields.io/badge/C%23-Tipos%20Primitivos-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/built-in-types)
 ![Autor](https://img.shields.io/badge/Autor-fzanneti-black?style=flat-square&logo=github)
 
 [![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
@@ -187,6 +188,18 @@ var ativo = true;        // bool
 > O `decimal` é ideal quando **precisão nos valores decimais** é essencial, como em operações com dinheiro (ex: salários, impostos, juros). Deve ser usado com o sufixo `m` (ex: `199.99m`).
 
 > O `var` é especialmente útil em consultas **LINQ** que são uma forma integrada à linguagem de consultar diversas fontes de dados (como coleções de objetos em memória, bancos de dados e XML) diretamente no código .NET (C# e Visual Basic), oferecendo uma sintaxe declarativa, similar à SQL, para filtrar, ordenar e agrupar dados de maneira eficiente e padronizada, e quando os nomes de tipos são longos. **Sempre inicialize variáveis** `var` na declaração.
+
+---
+
+<a href="https://github.com/fzanneti/DIO-wex-e2e-csharp/blob/main/Content/2-sintaxe-basica-com-DotNetCSharp/1-tipos-de-dados.md" target="_blank" style="text-decoration: none;">
+  <div style="background-color: #261d31; border: 1px solid #7a49c6; border-radius: 8px; padding: 16px; width: 420px; font-family: sans-serif; color: #ffffff; display: flex; align-items: center;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" style="width: 40px; height: 40px; margin-right: 16px;" />
+    <div>
+      <div style="font-size: 18px; font-weight: bold; color: #37ccab;">Tipos de dados</div>
+      <div style="font-size: 14px; color: #ccc;">Conteúdo sobre tipos primitivos em C# <br>Parte do repositório <strong>DIO-wex-e2e-csharp</strong></div>
+    </div>
+  </div>
+</a>
 
 ---
 

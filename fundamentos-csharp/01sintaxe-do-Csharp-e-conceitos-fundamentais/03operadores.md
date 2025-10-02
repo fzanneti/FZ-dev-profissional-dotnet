@@ -11,6 +11,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/fzanneti/dev-profissional-dotnet?style=social)
 ![Linguagem](https://img.shields.io/badge/Linguagem-CSharp-black)
 ![Ambiente](https://img.shields.io/badge/Ambiente-.NET-black)
+[![C# - Referência de Operadores](https://img.shields.io/badge/C%23-Referência%20de%20Operadores-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/)
 ![Autor](https://img.shields.io/badge/Autor-fzanneti-black?style=flat-square&logo=github)
 
 [![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
@@ -143,6 +144,18 @@ if (naoEhAdmin)
 - **Operadores de comparação retornam `bool`:** São fundamentais para decisões com `if`, `while`, `switch`, entre outros.
 - **Use operadores lógicos para combinar condições:** `&&`, `||` e `!` tornam suas verificações mais flexíveis. Aproveite o **curto-circuito** para otimizar o código.
 - **Exemplo prático importa:** Não basta decorar operadores - entenda seu uso em contexto. Um bom exemplo ajuda mais que uma lista isolada.
+
+---
+
+<a href="https://github.com/fzanneti/DIO-wex-e2e-csharp/blob/main/Content/2-sintaxe-basica-com-DotNetCSharp/2-tipos-de-operadores-em-CSharp.md" target="_blank" style="text-decoration: none;">
+  <div style="background-color: #261d31; border: 1px solid #7a49c6; border-radius: 8px; padding: 16px; width: 420px; font-family: sans-serif; color: #ffffff; display: flex; align-items: center;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" style="width: 40px; height: 40px; margin-right: 16px;" />
+    <div>
+      <div style="font-size: 18px; font-weight: bold; color: #37ccab;">Tipos de operadores</div>
+      <div style="font-size: 14px; color: #ccc;">Conteúdo sobre tipos de operadores em C# <br>Parte do repositório <strong>DIO-wex-e2e-csharp</strong></div>
+    </div>
+  </div>
+</a>
 
 ---
 

@@ -11,6 +11,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/fzanneti/dev-profissional-dotnet?style=social)
 ![Linguagem](https://img.shields.io/badge/Linguagem-CSharp-black)
 ![Ambiente](https://img.shields.io/badge/Ambiente-.NET-black)
+[![C# - Tipos em declarações de variáveis](https://img.shields.io/badge/C%23-Tipos%20em%20declarações%20de%20variáveis-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/#specifying-types-in-variable-declarations)
 ![Autor](https://img.shields.io/badge/Autor-fzanneti-black?style=flat-square&logo=github)
 
 [![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
