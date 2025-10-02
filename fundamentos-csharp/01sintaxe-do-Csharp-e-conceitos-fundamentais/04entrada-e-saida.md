@@ -11,8 +11,8 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/fzanneti/dev-profissional-dotnet?style=social)
 ![Linguagem](https://img.shields.io/badge/Linguagem-C%23-blue)
 ![Ambiente](https://img.shields.io/badge/Ambiente-.NET-blue)
-[![C# - Opções de Entrada](https://img.shields.io/badge/C%23-Opções%20de%20Entrada-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/compiler-options/inputs)
-[![C# - Opções de Saída](https://img.shields.io/badge/C%23-Opções%20de%20Saída-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/compiler-options/output)
+[![Documentação do C#](https://img.shields.io/badge/🔗%20C%23-Documentação-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/)
+[![Wex - End to End Engineering](https://img.shields.io/badge/🔗%20DIO%20Repositório-WEX%20E2E%20C%23-ff0000?logo=c-sharp&logoColor=white)](https://github.com/fzanneti/DIO-wex-e2e-csharp)
 
 [⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/03operadores.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/02estruturas-de-dados-loops-e-condicionais/01arrays-e-listas.md)
 

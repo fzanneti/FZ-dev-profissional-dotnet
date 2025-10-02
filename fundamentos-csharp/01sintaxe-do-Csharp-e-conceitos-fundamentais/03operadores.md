@@ -11,9 +11,8 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/fzanneti/dev-profissional-dotnet?style=social)
 ![Linguagem](https://img.shields.io/badge/Linguagem-C%23-blue)
 ![Ambiente](https://img.shields.io/badge/Ambiente-.NET-blue)
-[![C# - Referência de operadores](https://img.shields.io/badge/C%23-Referência%20de%20Operadores-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/)
-[![Wex - C# - Tipos de operadores](https://img.shields.io/badge/🔗%20WEX-Tipos%20de%20Operadores-ff0000?logo=c-sharp&logoColor=white)](https://github.com/fzanneti/DIO-wex-e2e-csharp/blob/main/Content/2-sintaxe-basica-com-DotNetCSharp/2-tipos-de-operadores-em-CSharp.md)
-[![Wex - C# - Operadores Aritméticos](https://img.shields.io/badge/🔗%20WEX-Operadores%20Aritméticos-ff0000?logo=c-sharp&logoColor=white)](https://github.com/fzanneti/DIO-wex-e2e-csharp/blob/main/Content/2-sintaxe-basica-com-DotNetCSharp/3-operadores-aritmeticos-em-CSharp.md)
+[![Documentação do C#](https://img.shields.io/badge/🔗%20C%23-Documentação-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/)
+[![Wex - End to End Engineering](https://img.shields.io/badge/🔗%20DIO%20Repositório-WEX%20E2E%20C%23-ff0000?logo=c-sharp&logoColor=white)](https://github.com/fzanneti/DIO-wex-e2e-csharp)
 
 [⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/02declaracao-de-variaveis.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/04entrada-e-saida.md)
 
