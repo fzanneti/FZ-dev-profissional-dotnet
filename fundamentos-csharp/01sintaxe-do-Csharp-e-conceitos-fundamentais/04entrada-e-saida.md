@@ -1,19 +1,20 @@
 # ![Badge](https://img.shields.io/badge/1._Sintaxe_do_C%23_e_Conceitos_Fundamentais-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-![Badge](https://img.shields.io/badge/Fabio%20Zanneti%20da%20Silva-Profissional-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
-
 ![Badge](https://img.shields.io/badge/1.4._Entrada_e_Saída-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
+[![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
 
 > Aprendizado estruturado para se tornar desenvolvedor .NET profissional, com foco em C#, ASP.NET Core, APIs e integração com Inteligência Artificial.
 
+![Autor](https://img.shields.io/badge/Autor-Fabio%20Zanneti%20da%20Silva-black?style=flat-square&logo=github)
 ![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/dev-profissional-dotnet)
 ![GitHub forks](https://img.shields.io/github/forks/fzanneti/dev-profissional-dotnet?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/fzanneti/dev-profissional-dotnet?style=social)
-![Linguagem](https://img.shields.io/badge/Linguagem-CSharp-black)
-![Ambiente](https://img.shields.io/badge/Ambiente-.NET-black)
-![Autor](https://img.shields.io/badge/Autor-fzanneti-black?style=flat-square&logo=github)
+![Linguagem](https://img.shields.io/badge/Linguagem-C%23-blue)
+![Ambiente](https://img.shields.io/badge/Ambiente-.NET-blue)
+[![C# - Opções de Entrada](https://img.shields.io/badge/C%23-Opções%20de%20Entrada-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/compiler-options/inputs)
+[![C# - Opções de Saída](https://img.shields.io/badge/C%23-Opções%20de%20Saída-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/compiler-options/output)
 
-[![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
+[⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/03operadores.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/02estruturas-de-dados-loops-e-condicionais/01arrays-e-listas.md)
 
 ---
 
@@ -270,6 +271,8 @@ class Programa
 ```
 
 ---
+
+[⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/03operadores.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/02estruturas-de-dados-loops-e-condicionais/01arrays-e-listas.md)
 
 ##### ✍️ Seção criada por: *Fabio Zanneti da Silva* - 🎯  *C# / .Net*
 [![GitHub](https://img.shields.io/badge/GitHub-fzanneti-000000?style=flat&logo=github)](https://github.com/fzanneti)
