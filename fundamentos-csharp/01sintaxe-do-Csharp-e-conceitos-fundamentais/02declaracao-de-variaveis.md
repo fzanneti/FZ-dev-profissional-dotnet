@@ -6,14 +6,16 @@
 
 > Aprendizado estruturado para se tornar desenvolvedor .NET profissional, com foco em C#, ASP.NET Core, APIs e integração com Inteligência Artificial.
 
-![Autor](https://img.shields.io/badge/Autor-Fabio%20Zanneti%20da%20Silva-black?style=flat-square&logo=github)
+![Autor](https://img.shields.io/badge/Autor-Fabio%20Zanneti%20da%20Silva-blue?style=flat-square&logo=github)
 ![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/dev-profissional-dotnet)
 ![GitHub forks](https://img.shields.io/github/forks/fzanneti/dev-profissional-dotnet?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/fzanneti/dev-profissional-dotnet?style=social)
-![Linguagem](https://img.shields.io/badge/Linguagem-C%23-blue)
-![Ambiente](https://img.shields.io/badge/Ambiente-.NET-blue)
-[![Documentação do C#](https://img.shields.io/badge/🔗%20C%23-Documentação-blue?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/)
-[![Wex - End to End Engineering](https://img.shields.io/badge/🔗%20DIO%20Repositório-WEX%20E2E%20C%23-ff0000?logo=c-sharp&logoColor=white)](https://github.com/fzanneti/DIO-wex-e2e-csharp)
+![Ambiente](https://img.shields.io/badge/Ambiente-.NET-52057b)
+![Linguagem](https://img.shields.io/badge/Linguagem-C%23-52057b)
+[![C# / .NET](https://img.shields.io/badge/🔗%20C%23‑.NET-Visite-52057b)](https://dotnet.microsoft.com/pt-br/languages/csharp)
+[![Documentação do C#](https://img.shields.io/badge/🔗%20C%23-Documentação-52057b?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/)
+[![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-Português-00cbcc?logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/portuguese/)
+[![Wex - End to End Engineering](https://img.shields.io/badge/🔗%20DIO%20Repositório%20FZ-WEX%20E2E%20C%23-00cbcc?logo=c-sharp&logoColor=white)](https://github.com/fzanneti/DIO-wex-e2e-csharp)
 
 [⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/01tipos-de-dados.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/main/fundamentos-csharp/01sintaxe-do-Csharp-e-conceitos-fundamentais/03operadores.md)
 
