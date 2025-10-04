@@ -16,6 +16,8 @@
 [![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-Português-00cbcc?logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/portuguese/)
 [![Wex - End to End Engineering](https://img.shields.io/badge/🔗%20DIO%20Repositório%20FZ-WEX%20E2E%20C%23-00cbcc?logo=c-sharp&logoColor=white)](https://github.com/fzanneti/DIO-wex-e2e-csharp)
 
+[⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/3cc1b4076f9d01a46d36909b3292fb9d97cfcbbc/fundamentos-csharp/02estruturas-de-dados-loops-e-condicionais/01arrays-e-listas.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/3cc1b4076f9d01a46d36909b3292fb9d97cfcbbc/fundamentos-csharp/02estruturas-de-dados-loops-e-condicionais/03loops.md)
+
 ---
 
 **Desvendando o poder das condicionais em C#: Um guia definitivo para iniciantes**
@@ -215,6 +217,8 @@ Para um iniciante, a escolha entre `if-else` e `switch` pode parecer confusa. Aq
 > Dominar as condicionais `if`, `else` e `switch` é o primeiro grande passo para escrever programas que são mais do que apenas uma sequência de comandos. É o ponto em que você começa a dar inteligência e flexibilidade ao seu código. Continue a praticar com diferentes cenários e, em breve, tomar decisões nos seus programas C# será algo natural e intuitivo.
 
 ---
+
+[⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/3cc1b4076f9d01a46d36909b3292fb9d97cfcbbc/fundamentos-csharp/02estruturas-de-dados-loops-e-condicionais/01arrays-e-listas.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/3cc1b4076f9d01a46d36909b3292fb9d97cfcbbc/fundamentos-csharp/02estruturas-de-dados-loops-e-condicionais/03loops.md)
 
 ##### ✍️ Seção criada por: *Fabio Zanneti da Silva* - 🎯 *C# / .Net*
 [![GitHub](https://img.shields.io/badge/GitHub-fzanneti-000000?style=flat&logo=github)](https://github.com/fzanneti)
