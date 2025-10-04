@@ -16,6 +16,8 @@
 [![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-Português-00cbcc?logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/portuguese/)
 [![Wex - End to End Engineering](https://img.shields.io/badge/🔗%20DIO%20Repositório%20FZ-WEX%20E2E%20C%23-00cbcc?logo=c-sharp&logoColor=white)](https://github.com/fzanneti/DIO-wex-e2e-csharp)
 
+[⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/3cc1b4076f9d01a46d36909b3292fb9d97cfcbbc/fundamentos-csharp/03poo-classes-heran%C3%A7a-polimorfismo/01classe.md) | [➡️]()
+
 ---
 
 **Desvendando o encapsulamento em C#:**
@@ -228,6 +230,8 @@ class Program
 > Neste exemplo, a `ContaPoupanca` pode manipular diretamente o `saldo` para adicionar os juros, pois ela é uma "herdeira" da `ContaBancaria`. No entanto, para o resto do programa (a classe `Program`), o `saldo` continua inacessível diretamente.
 
 ---
+
+[⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/3cc1b4076f9d01a46d36909b3292fb9d97cfcbbc/fundamentos-csharp/03poo-classes-heran%C3%A7a-polimorfismo/01classe.md) | [➡️]()
 
 ##### ✍️ Seção criada por: *Fabio Zanneti da Silva* - 🎯 *C# / .Net*
 [![GitHub](https://img.shields.io/badge/GitHub-fzanneti-000000?style=flat&logo=github)](https://github.com/fzanneti)

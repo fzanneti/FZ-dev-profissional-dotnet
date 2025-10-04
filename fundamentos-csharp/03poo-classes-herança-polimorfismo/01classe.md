@@ -16,6 +16,8 @@
 [![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-Português-00cbcc?logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/portuguese/)
 [![Wex - End to End Engineering](https://img.shields.io/badge/🔗%20DIO%20Repositório%20FZ-WEX%20E2E%20C%23-00cbcc?logo=c-sharp&logoColor=white)](https://github.com/fzanneti/DIO-wex-e2e-csharp)
 
+[⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/a63e2d15354df1dd0db5a476a78ec93117daa636/fundamentos-csharp/02estruturas-de-dados-loops-e-condicionais/03loops.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/3cc1b4076f9d01a46d36909b3292fb9d97cfcbbc/fundamentos-csharp/03poo-classes-heran%C3%A7a-polimorfismo/02encapsulamento.md)
+
 ---
 
 **O que é uma classe? A planta da sua casa**
@@ -190,6 +192,8 @@ Neste ponto, você pode estar se perguntando: por que toda essa estrutura? A res
 |Método|A ação de abrir uma porta|Um comportamento ou ação que o objeto pode realizar.|`public void Acelerar() { ... }`|
 
 ---
+
+[⬅️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/a63e2d15354df1dd0db5a476a78ec93117daa636/fundamentos-csharp/02estruturas-de-dados-loops-e-condicionais/03loops.md) | [➡️](https://github.com/fzanneti/FZ-dev-profissional-dotnet/blob/3cc1b4076f9d01a46d36909b3292fb9d97cfcbbc/fundamentos-csharp/03poo-classes-heran%C3%A7a-polimorfismo/02encapsulamento.md)
 
 ##### ✍️ Seção criada por: *Fabio Zanneti da Silva* - 🎯 *C# / .Net*
 [![GitHub](https://img.shields.io/badge/GitHub-fzanneti-000000?style=flat&logo=github)](https://github.com/fzanneti)
