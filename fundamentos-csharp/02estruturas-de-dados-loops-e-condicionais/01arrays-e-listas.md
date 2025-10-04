@@ -1,6 +1,7 @@
 # ![Badge](https://img.shields.io/badge/2._Estruturas_de_Dados%2c_Loops_e_Condicionais-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-![Badge](https://img.shields.io/badge/2.1._Arrays_e_Listas-blue?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Badge](https://img.shields.io/badge/1.1._Tipos_de_Dados-blue?style=for-the-badge&logo=c-sharp&logoColor=white) 
+[![Microsoft Learn - Treinamentos](https://img.shields.io/badge/🔗%20Microsoft_Learn-Treinamentos-blue?logo=microsoft&logoColor=white&style=for-the-badge)](https://learn.microsoft.com/pt-br/training/)
 [![Compilador Online](https://img.shields.io/badge/🔗%20Compilador_Online-C%23-blue?style=for-the-badge)](https://www.mycompiler.io/pt/new/csharp)
 
 > Aprendizado estruturado para se tornar desenvolvedor .NET profissional, com foco em C#, ASP.NET Core, APIs e integração com Inteligência Artificial.
